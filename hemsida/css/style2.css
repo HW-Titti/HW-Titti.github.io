@@ -1,0 +1,21 @@
+body {
+  background-color: #cfcee8;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+  text-decoration: underline;
+  font-style: bold;
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}

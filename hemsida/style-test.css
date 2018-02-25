@@ -1,0 +1,75 @@
+body{
+  background-image: url(".../bilder/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: grey;
+
+  font-family: 'Griffy', cursive;
+}
+
+h1 {
+  color: pink;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  color: red;
+  background-color: white;
+  font-size: 20px;
+}
+
+/*<p class="text1"> Hej hej </p>*/
+.text1 {
+  color: red;
+}
+
+
+
+img {
+  width: 400px;
+  border-radius: 50%;
+  /*bilden i mitten */
+  display: block;
+  margin: auto;
+  /*få till höger */
+  float: right;
+}
+
+/*för meny-topp*/
+/*ändra färgen på menyn*/
+.navbar-inverse {
+    background-color: skyblue;
+}
+/*ändra på "startsidan"*/
+.navbar-inverse .navbar-brand {
+    color: grey;
+    font-family: 'Griffy', cursive;
+}
+/*för att ändra färgen på texten i menyn */
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+/*för meny-sida*/
+/*ändra färgen på menyn*/
+.nav-pills li a {
+    font-family: Arial;
+    background-color: skyblue;
+    color: white;
+    font-size: 50px;
+}
+
+/*ändra vid hover*/
+.nav-pills li a:hover {
+	/* Här skriver du vad som skall ändras. */
+    background-color: blue;
+}
+
+
+/*p, h1 {
+    font-family: arial;
+    color: red;
+}*/
